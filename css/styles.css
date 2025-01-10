@@ -34,6 +34,10 @@ a:hover{
     color: var(--color-link-hover) ;
 }
 
+li{
+    list-style: none;
+}
+
 button.btn{
     background-color: var(--color-bg-link)
 }
@@ -59,4 +63,45 @@ header nav a.logo{
 
 header nav div.dropdown{
     margin-right: 5%;
+}
+
+footer nav section {
+    display: flex;
+}
+
+footer nav section.redes-by{
+    flex-direction: column;
+}
+
+footer nav section div.redes{
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer nav section div.redes img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+footer nav section div.by h4{
+    text-align: center;
+    font-size: 10px;
+    margin: 15px 0;
+}
+
+footer nav section.menu-logo{
+    justify-content: space-between;
+}
+
+footer nav section ul{
+    padding: 10px;
+}
+
+footer nav section ul li{
+    font-size: 13px;
+}
+
+footer nav section a.logo{
+    width: 30%;
 }
