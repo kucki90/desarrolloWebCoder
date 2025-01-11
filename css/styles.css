@@ -65,7 +65,15 @@ header nav div.dropdown{
     margin-right: 5%;
 }
 
+header nav div.menu{
+    display: none;
+}
+
 /* MAIN */
+main img.banner{
+    width: 100%;
+    padding: 1rem;
+}
 
 main section h2{
     text-align: center;
@@ -85,6 +93,10 @@ main section a.btn{
     margin: 2% auto;
     display: flex;
     justify-content: center;
+}
+
+main section div.cards-md-lg{
+    display: none;
 }
 
 footer nav section {
@@ -127,4 +139,38 @@ footer nav section ul li{
 
 footer nav section a.logo{
     width: 30%;
+}
+
+@media (min-width: 600px) {
+    header nav a.logo{
+        width: 20%;
+    }
+
+    header nav div.dropdown{
+        display: none;
+    }
+
+    header nav div.menu{
+        display: flex;
+    }
+
+    header nav div.menu ul{
+        display: flex;
+    }
+
+    header nav div.menu ul li{
+        padding: 0 1em;
+    }
+
+    main section div.carousel{
+        display: none;
+    }
+    main section div.cards-md-lg{
+        display: flex;
+        align-items: center;
+    }
+
+    footer nav section.menu-logo a.logo{
+        width: 20%;
+    }
 }
