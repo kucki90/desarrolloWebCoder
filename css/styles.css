@@ -99,6 +99,50 @@ main section div.cards-md-lg{
     display: none;
 }
 
+/* contacto */
+
+main section img.banner{
+    width: 100%;
+    padding: 1rem;
+}
+main section.contacto{
+    width: 100%;
+    padding: 0 1rem;
+    font-size: 13px;
+}
+
+main section.contacto div.contacts button:hover{
+    background-color: var(--color-bg-input-hover);
+}
+
+main section.contacto div.contacts ul{
+    padding: 0;
+}
+
+main section.contacto div.contacts ul li a{
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+main section form{
+    font-size: 13px;
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+main section form textarea{
+    height: 5rem;
+}
+
+main section form option:hover, select:hover, input:hover, textarea:hover, btn{
+    border: 2px solid #f800cb;
+    background-color: var(--color-bg-input-hover);
+}
+
+/* footer */
+
 footer nav section {
     display: flex;
 }
@@ -142,9 +186,6 @@ footer nav section a.logo{
 }
 
 @media (min-width: 600px) {
-    /* *{
-        font-size: 30px;
-    } */
     header nav a.logo{
         width: 20%;
     }
@@ -174,6 +215,31 @@ footer nav section a.logo{
         align-items: center;
     }
 
+    main section.contacto{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    main section.contacto div{
+        width: 40%;
+        display: flex;
+    }
+    
+    main section.contacto div.contacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    main section.contacto div.contacts button{
+        background-color: var(--color-btn);
+        width: 50%;
+        margin: 1rem auto 0rem;
+        padding: 1rem;
+        border-color: var(--color-shadow-border);
+        border-radius: 10%;
+    }
+    
     footer nav section div.redes {
         padding: 0 30%;
     }
