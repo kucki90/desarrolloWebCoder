@@ -121,7 +121,7 @@ footer nav section div.redes img{
 
 footer nav section div.by h4{
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     margin: 15px 0;
 }
 
@@ -142,6 +142,9 @@ footer nav section a.logo{
 }
 
 @media (min-width: 600px) {
+    /* *{
+        font-size: 30px;
+    } */
     header nav a.logo{
         width: 20%;
     }
@@ -160,6 +163,7 @@ footer nav section a.logo{
 
     header nav div.menu ul li{
         padding: 0 1em;
+        font-size: 15px;
     }
 
     main section div.carousel{
@@ -170,7 +174,47 @@ footer nav section a.logo{
         align-items: center;
     }
 
+    footer nav section div.redes {
+        padding: 0 30%;
+    }
+
+    footer nav section div.redes img{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    
+    footer nav section div.by h4{
+        font-size: 20px;
+    }
+
     footer nav section.menu-logo a.logo{
         width: 20%;
+    }
+}
+
+@media (min-width: 1024px) {
+    header nav a.logo{
+        width: 15%;
+    }
+
+    header nav div.menu ul li{
+        font-size: 25px;
+    }
+
+    footer nav section div.redes {
+        padding: 0 40%;
+    }
+
+    footer nav section div.redes img{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    footer nav section ul li{
+        font-size: 20px;
+    }
+    
+    footer nav section.menu-logo a.logo{
+        width: 10%;
     }
 }
