@@ -141,6 +141,13 @@ main section form option:hover, select:hover, input:hover, textarea:hover, btn{
     background-color: var(--color-bg-input-hover);
 }
 
+/* detalle */
+
+main div.detail{
+    width: 90%;
+    margin: auto;
+}
+
 /* footer */
 
 footer nav section {
@@ -240,6 +247,23 @@ footer nav section a.logo{
         border-radius: 10%;
     }
     
+    /* detalle */
+
+    main div.detail{
+        flex-direction: row;
+    }
+
+    main div.detail img{
+        width: 50%;
+    }
+
+    main div.detail div.card-body{
+        width: 50%;
+        align-content: center;
+    }
+    
+    /* footer */
+
     footer nav section div.redes {
         padding: 0 30%;
     }
