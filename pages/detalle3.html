@@ -9,44 +9,62 @@
 </head>
 <body>
     <header>
-        <div class="envio"><marquee behavior="" direction="right">Envío gratis para pedidos que superen los $100.000</marquee></div>
+        <div class="envio"><marquee behavior="" direction="left">Envío gratis para pedidos que superen los $100.000</marquee></div>
         <nav>
             <a href="../index.html" class="logo"><img src="../assets/logo.jpg" alt="logo"></a>
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a href="../index.html#accesorios"><button class="dropdown-item" type="button">Accesorios</button></a></li>
-                  <li><a href="../pages/venta_mayorista.html"><button class="dropdown-item" type="button">Mayoristas</button></a></li>
-                  <li><a href="../pages/contacto.html"><button class="dropdown-item" type="button">Contacto</button></a></li>
-                  <li><a href="../pages/garantia.html"><button class="dropdown-item" type="button">Garantía</button></a></li>
+                  <li><button class="dropdown-item" type="button"><a href="../index.html#accesorios">Accesorios</a></button></li>
+                  <li><button class="dropdown-item" type="button"><a href="../pages/venta_mayorista.html">Mayoristas</a></button></li>
+                  <li><button class="dropdown-item" type="button"><a href="../pages/contacto.html">Contacto</a></button></li>
+                  <li><button class="dropdown-item" type="button"><a href="../pages/garantia.html">Garantía</a></button></li>
                 </ul>
-              </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><button class="dropdown-item" type="button"><a href="../index.html#accesorios">Accesorios</a></button></li>
+                    <li><button class="dropdown-item" type="button"><a href="../pages/venta_mayorista.html">Mayoristas</a></button></li>
+                    <li><button class="dropdown-item" type="button"><a href="../pages/contacto.html">Contacto</a></button></li>
+                    <li><button class="dropdown-item" type="button"><a href="../pages/garantia.html">Garantía</a></button></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-
+        <div class="card detail">
+            <img src="../assets/productos/un_3.jpeg" class="card-img-top" alt="Pulseras Ojo Turco">
+            <div class="card-body">
+                <h5 class="card-title">Ojo Turco</h5>
+                <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="card-text text-end">$3.290</p>
+                <a href="https://www.mercadolibre.com.ar/" class="btn">Comprar</a>
+            </div>
+        </div>
     </main>
     <footer>
         <nav>
-            <section>
+            <section class="redes-by">
                 <div class="redes">
-                    <a href="http://"><img src="../assets/redes/instagram (1).png" alt="instagram"></a>
-                    <a href="http://"><img src="../assets/redes/facebook.png" alt="facebook"></a>
-                    <a href="http://"><img src="../assets/redes/whatsapp.png" alt="whatsapp"></a>
+                    <a href="https://www.instagram.com/jandcplayanddesign/"><img src="../assets/redes/instagram (1).png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/J.and.C.PlayandDesign"><img src="../assets/redes/facebook.png" alt="facebook"></a>
+                    <a href="http://wa.me/5491136040572"><img src="../assets/redes/whatsapp.png" alt="whatsapp"></a>
                 </div>
-                <div>
+                <div class="by">
                     <h4>Created by Cecilia Kuckiewicz</h4>
                 </div>
             </section>
-            <section>
+            <section class="menu-logo">
                 <ul>
                     <!-- <a href="../pages/donde_comprar.html"><li>¿Dónde comprar?</li></a> --><!-- estoy evaluando la posibilidad de sumar esta vista -->
-                    <a href="../index.html#accesorios"><li>Accesorios</li></a>
-                    <a href="../pages/venta_mayorista.html"><li>Mayoristas</li></a>
-                    <a href="../pages/contacto.html"><li>Contacto</li></a>
-                    <a href="../pages/garantia.html"><li>Garantia</li></a>
+                    <li><a href="../index.html#accesorios">Accesorios</a></li>
+                    <li><a href="../pages/venta_mayorista.html">Mayoristas</a></li>
+                    <li><a href="../pages/contacto.html">Contacto</a></li>
+                    <li><a href="../pages/garantia.html">Garantia</a></li>
                 </ul>
                 <a href="../index.html" class="logo"><img src="../assets/logo.jpg" alt="logo"></a>
             </section>

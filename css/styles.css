@@ -30,12 +30,47 @@ a{
 }
 
 a:hover{
-    background-color: var(--color-bg-link);
-    color: var(--color-link-hover) ;
+    background-color: var(--color-btn);
+    box-shadow: 10px 10px 5px 0px var(--color-shadow-border);
 }
 
-button.btn{
-    background-color: var(--color-bg-link)
+li{
+    list-style: none;
+}
+
+.btn{
+    background-color: var(--color-bg-link);
+    margin: 1%;
+}
+
+.btn:hover{
+    background-color: var(--color-btn);
+    box-shadow: 10px 10px 5px 0px var(--color-shadow-border);
+}
+
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+h5{
+    font-size: 12px;
+    font-weight: 100;
 }
 
 /* HEADER */
@@ -59,4 +94,360 @@ header nav a.logo{
 
 header nav div.dropdown{
     margin-right: 5%;
+}
+
+header nav div.menu{
+    display: none;
+}
+
+/* MAIN */
+main img.banner{
+    width: 100%;
+    padding: 1rem;
+}
+
+main section h2{
+    text-align: center;
+}
+
+/* carousel */
+
+main section div.carousel{
+    width: 90%;
+    margin: auto;
+}
+
+main section div.carousel div.carousel-inner div.carousel-item div.card a{
+    width: 100%;
+}
+
+main section a.btn{
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+}
+
+main section div.cards-md-lg{
+    display: none;
+}
+
+/* contacto */
+
+main section img.banner{
+    width: 100%;
+    padding: 1rem;
+}
+main section.contacto{
+    width: 100%;
+    padding: 0 1rem;
+    font-size: 13px;
+}
+
+main section.contacto div.contacts button:hover{
+    background-color: var(--color-bg-input-hover);
+}
+
+main section.contacto div.contacts ul{
+    padding: 0;
+}
+
+main section.contacto div.contacts ul li a{
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+/* formulario */
+
+main section form{
+    font-size: 15px;
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+main section form textarea{
+    height: 5rem;
+}
+
+main section form option:hover, select:hover, input:hover, textarea:hover, btn{
+    border: 2px solid #f800cb;
+    background-color: var(--color-bg-input-hover);
+}
+
+/* detalle */
+
+main div.detail{
+    width: 90%;
+    margin: auto;
+}
+/* mayorista */
+main.mayorista{
+    padding: 0 5%;
+}
+
+main.mayorista ol{
+    padding: 0;
+}
+
+#canal-venta1, #canal-venta2, #canal-venta3{
+    accent-color: var(--color-bg-link)
+}
+
+/* FOOTER */
+
+footer nav section {
+    display: flex;
+}
+
+footer nav section.redes-by{
+    flex-direction: column;
+}
+
+footer nav section div.redes{
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer nav section div.redes img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: 1rem;
+}
+
+footer nav section div.by h4{
+    text-align: center;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+footer nav section.menu-logo{
+    justify-content: space-between;
+}
+
+footer nav section ul{
+    padding: 10px;
+}
+
+footer nav section ul li{
+    font-size: 13px;
+}
+
+footer nav section a.logo{
+    width: 30%;
+}
+
+@media (min-width: 600px) {
+    /* HEADER */
+
+    header nav a.logo{
+        width: 20%;
+    }
+
+    header nav div.dropdown{
+        display: none;
+    }
+
+    header nav div.menu{
+        display: flex;
+    }
+
+    header nav div.menu ul{
+        display: flex;
+    }
+
+    header nav div.menu ul li{
+        padding: 0 1em;
+        font-size: 15px;
+    }
+
+    /* carousel */
+
+    main section div.carousel{
+        display: none;
+    }
+    main section div.cards-md-lg{
+        display: flex;
+        align-items: center;
+    }
+
+    /* contacto */
+
+    main section.contacto{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    main section.contacto div{
+        width: 40%;
+        display: flex;
+    }
+    
+    main section.contacto div.contacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    main section.contacto div.contacts button{
+        background-color: var(--color-btn);
+        width: 50%;
+        margin: 1rem auto 0rem;
+        padding: 1rem;
+        border-color: var(--color-shadow-border);
+        border-radius: 10%;
+    }
+    
+    /* detalle */
+
+    main div.detail{
+        flex-direction: row;
+    }
+
+    main div.detail img{
+        width: 50%;
+    }
+
+    main div.detail div.card-body{
+        width: 50%;
+        align-content: center;
+    }
+    
+    /* FOOTER */
+
+    footer nav section div.redes {
+        padding: 0 30%;
+    }
+
+    footer nav section div.redes img{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    
+    footer nav section div.by h4{
+        font-size: 20px;
+    }
+
+    footer nav section.menu-logo a.logo{
+        width: 20%;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* HEADER */
+
+    header nav a.logo{
+        width: 15%;
+    }
+
+    header nav div.menu ul li{
+        font-size: 25px;
+    }
+
+    /* mayorista */
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 17px;
+    }
+
+    h5{
+        font-size: 15px;
+    }
+
+    label{
+        font-size: 17px;
+    }
+
+    /* contacto */
+
+    main section.contacto{
+        font-size: 25px;
+    }
+
+    /* FOOTER */
+
+    footer nav section div.redes {
+        padding: 0 40%;
+    }
+
+    footer nav section div.redes img{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    footer nav section ul li{
+        font-size: 20px;
+    }
+    
+    footer nav section.menu-logo a.logo{
+        width: 10%;
+    }
+}
+
+@media (min-width: 2000px) {
+    /* general */
+
+    h1{
+        font-size: 100px;
+    }
+
+    h2{
+        font-size: 70px;
+    }
+
+    h3{
+        font-size: 50px;
+    }
+
+    h4{
+        font-size: 30px;
+    }
+
+    h5{
+        font-size: 30px;
+    }
+
+    label{
+        font-size: 30px;
+    }
+
+    input{
+        font-size: 30px;
+    }
+
+    .card-body .card-title{
+        font-size: 50px;
+    }
+
+    .card-body .card-text{
+        font-size: 30px;
+    }
+
+    .description{
+        font-size: 30px;
+    }
+
+    .btn{
+        font-size: 30px;
+    }
+
+    /* contacto */
+
+    main section.contacto{
+        font-size: 30px;
+    }
 }
