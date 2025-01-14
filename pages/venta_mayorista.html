@@ -35,8 +35,95 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="mayorista">
+        <h1>Quiero ser Mayorista</h1>
+        <section>
+            <h2>¡Vendé nuestros productos!</h2>
+            <h3>Para brindarte nuestra propuesta comercial, necesitamos saber si tenes un local o si vas a revender ya que las condiciones cambian según tipo de cliente.</h3>
+            <h4>Además analizamos tu código postal para chequear que no haya demasiados vendedores en un sólo lugar.
+            </h4>
+            <h3>Si ya completaste el formulario en Facebook o Instagram no hace falta que vuelvas a cargarlo, te contactaremos a la brevedad.</h3>
+            <!-- FORMULARIO -->
+            <section>
+                <form action="submit" method="post">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre"> 
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" name="apellido" id="apellido">
+                    <label for="canal-venta1">Canal de venta:</label>
+                    <div class="canal-venta">
+                        <div>
+                            <input type="radio" name="canal-venta" id="canal-venta1">
+                            <label for="canal-venta1">Revendedora</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="canal-venta" id="canal-venta2">
+                            <label for="canal-venta2">Local</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="canal-venta" id="canal-venta3">
+                            <label for="canal-venta3">Online</label>
+                        </div>
+                    </div>
+                    <label for="redes">Instagram:</label>
+                    <input type="text" name="redes" id="redes">
+                    <label for="pais">País: 
+                        <select name="pais" id="pais">
+                            <option value="">Argentina</option>
+                            <option value="">Bolivia</option>
+                            <option value="">Brasil</option>
+                            <option value="">Chile</option>
+                            <option value="">Paraguay</option>
+                            <option value="">Uruguay</option>
+                        </select>
+                    </label>
+                    <label for="mensaje">Dejanos tu mensaje:</label> 
+                    <textarea name="mensaje" id="mensaje"></textarea> 
+                    <input class="btn" type="submit" value="Enviar">
+                </form>
+            </section>
+            <h4>¡Una vez que completes el formulario, te enviaremos toda la información!</h4>
 
+            <h3>¿Queres saber por qué vender Familia J&C es una oportunidad única?</h3>
+            <!-- RAZONES -->
+            <h6>(LINK RAZONES PARA SUMARSE)</h6>
+            <h3>¿Queres conocer nuestro catálogo digital?</h3>
+            <!-- CATALOGO -->
+            <a href="../pages/catalogo.html"><h2>catalogo</h2></a>
+            <h2>PREGUNTAS FRECUENTES</h2>
+            <ol>
+                <li>
+                    <h4>🤔 ¿Los precios que veo en la web o catálogo ya son precios mayoristas?</h4>
+                    <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                      </svg> ¡NO! Esos precios son los sugeridos al público. Siendo mayorista obtenes un 30% de descuento si sos revendedora y un 40% si tenes un local comercial.</h5>
+                </li>
+                <li>
+                    <h4>📦 ¿Cómo funcionan los envíos?</h4>
+                    <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                      </svg> Hacemos envíos a TODO el mundo. Al realizar tus pedidos podrás elegir entre empresas sugeridas (Correo Argentino, Andreani, Fedex, Urbano, etc), o podes pedir que alcancemos tu pedido a un transporte de carga que desees (no tiene costo extra de embalaje o de acercar el paquete al expreso), o podrás retirar sin cargo en nuestro taller en Vicente López.</h5>
+                </li>
+                <li>
+                    <h4>⏰ ¿Con qué frecuencia debo hacer pedidos para mantener mis precios mayoristas?</h4>
+                    <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                      </svg> Cada 3 meses como mínimo.</h5>
+                </li>
+                <li>
+                    <h4>🛍️ ¿Qué productos son esenciales en tu 1° pedido?</h4>
+                    <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                      </svg> Te aconsejamos comprar un combo sugerido de 1° pedido para tener un surtido de lo que más se vende. <a href="../pages/catalogo.html#combos">VER LOS COMBOS</a></h5>
+                </li>
+                <li>
+                    <h4>💲 ¿Cuál es el mínimo de compra mayorista?</h4>
+                    <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                      </svg> Tu primer pedido debe ser de $40.000 si sos revendedora. Si tenes un local, tu asesora comercial te guiará con el monto ideal de primera compra.</h5>
+                </li>
+            </ol>
+        </section>
     </main>
     <footer>
         <nav>
