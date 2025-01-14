@@ -195,6 +195,13 @@ main.mayorista ol{
     accent-color: var(--color-bg-link)
 }
 
+/* catalogo */
+
+.catalogo{
+    width: 90%;
+    margin: auto;
+}
+
 /* FOOTER */
 
 footer nav section {
