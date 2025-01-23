@@ -1,0 +1,95 @@
+@media (min-width: 600px) {
+    /* HEADER */
+
+    header nav a.logo{
+        width: 20%;
+    }
+
+    header nav div.dropdown{
+        display: none;
+    }
+
+    header nav div.menu{
+        display: flex;
+    }
+
+    header nav div.menu ul{
+        display: flex;
+    }
+
+    header nav div.menu ul li{
+        padding: 0 1em;
+        font-size: 15px;
+    }
+
+    /* carousel */
+
+    main section div.carousel{
+        display: none;
+    }
+    main section div.cards-md-lg{
+        display: flex;
+        align-items: center;
+    }
+
+    /* contacto */
+
+    main section.contacto{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    main section.contacto div{
+        width: 40%;
+        display: flex;
+    }
+    
+    main section.contacto div.contacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    main section.contacto div.contacts button{
+        background-color: $color-btn;
+        width: 50%;
+        margin: 1rem auto 0rem;
+        padding: 1rem;
+        border-color: $color-shadow-border;
+        border-radius: 10%;
+    }
+    
+    /* detalle */
+
+    main div.detail{
+        flex-direction: row;
+    }
+
+    main div.detail img{
+        width: 50%;
+    }
+
+    main div.detail div.card-body{
+        width: 50%;
+        align-content: center;
+    }
+    
+    /* FOOTER */
+
+    footer nav section div.redes {
+        padding: 0 30%;
+    }
+
+    footer nav section div.redes img{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    
+    footer nav section div.by h4{
+        font-size: 20px;
+    }
+
+    footer nav section.menu-logo a.logo{
+        width: 20%;
+    }
+}

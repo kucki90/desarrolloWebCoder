@@ -1,0 +1,62 @@
+@media (min-width: 1024px) {
+    /* HEADER */
+
+    header nav a.logo{
+        width: 15%;
+    }
+
+    header nav div.menu ul li{
+        font-size: 25px;
+    }
+
+    /* mayorista */
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 17px;
+    }
+
+    h5{
+        font-size: 15px;
+    }
+
+    label{
+        font-size: 17px;
+    }
+
+    /* contacto */
+
+    main section.contacto{
+        font-size: 25px;
+    }
+
+    /* FOOTER */
+
+    footer nav section div.redes {
+        padding: 0 40%;
+    }
+
+    footer nav section div.redes img{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    footer nav section ul li{
+        font-size: 20px;
+    }
+    
+    footer nav section.menu-logo a.logo{
+        width: 10%;
+    }
+}

@@ -1,0 +1,26 @@
+/* HEADER */
+
+header div.envio{
+    background-color: $color-link;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav a.logo{
+    width: 30%;
+}
+
+header nav div.dropdown{
+    margin-right: 5%;
+}
+
+header nav div.menu{
+    display: none;
+}
