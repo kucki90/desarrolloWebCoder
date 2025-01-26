@@ -84,6 +84,10 @@ header nav div.dropdown {
   margin-right: 5%;
 }
 
+header nav li a.dropdown-item {
+  color: rgba(248, 0, 203, 0.8392156863);
+}
+
 header nav div.menu {
   display: none;
 }

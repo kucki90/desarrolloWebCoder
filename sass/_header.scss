@@ -1,3 +1,4 @@
+@import '_variables.scss';
 /* HEADER */
 
 header div.envio{
@@ -19,6 +20,10 @@ header nav a.logo{
 
 header nav div.dropdown{
     margin-right: 5%;
+}
+
+header nav li a.dropdown-item{
+    color: $color-link;
 }
 
 header nav div.menu{
