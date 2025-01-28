@@ -394,5 +394,8 @@ footer nav section a.logo {
     font-size: 30px;
   }
 }
+.animate__rubberBand {
+  animation-duration: 2s;
+}
 
 /*# sourceMappingURL=styles.css.map */
